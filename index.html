@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name=”robots” content="index, follow">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Web Design, Development & Marketing for Small Businesses | Elements Agency</title>
+        <meta name="description" content="We design and build custom websites, create strong brands, and run marketing campaigns that help small businesses grow online. At Elements Agency, we focus on making your business stand out, attract more customers, and succeed.">
+        <meta name="author" content="Elements Agency">
+    
+        <meta property="og:title" content="Web Design, Development & Marketing for Small Businesses | Elements Agency">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://elements-agency.co.uk/">
+        <meta property="og:description" content="We design and build custom websites, create strong brands, and run marketing campaigns that help small businesses grow online. At Elements Agency, we focus on making your business stand out, attract more customers, and succeed.">
+        <meta property="og:image" content="https://elements-agency.co.uk/img/portfolio/elements.webp">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:site_name" content="Elements Agency">
+    
+        <link rel="icon" href="./img/favicon/favicon.ico">
+        <link rel="icon" href="./img/favicon/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="./img/favicon/favicon.png">
+    
+        <link rel="canonical" href="https://elements-agency.co.uk/"/>
+    
+        <link rel="stylesheet" href="./css/reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+                <!-- Google tag (gtag.js) -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KRKN16PFN"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-9KRKN16PFN');
+                </script>
+            
+                    <!-- Meta Pixel Code -->
+                <script>
+                    !function(f,b,e,v,n,t,s)
+                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                    fbq('init', '406294738420214');
+                    fbq('track', 'PageView');
+                </script>
+                <noscript>
+                    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=406294738420214&ev=PageView&noscript=1"/>
+                </noscript>
+                <!-- End Meta Pixel Code -->
+            
+                <script type="application/ld+json">
+                    {
+                        "@context": "https://schema.org",
+                        "@type": ["MarketingAgency", "WebDevelopment"],
+                        "name": "Elements Agency",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "London",
+                            "addressRegion": "UK"
+                        },
+                        "email": "hello.elementsagency@gmail.com",
+                        "url": "https://elements-agency.co.uk/",
+                        "openingHoursSpecification": [
+                            {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                            ],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                            }
+                        ],
+                        "priceRange": "$$"
+                    }
+                </script>                    
+    </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="./img/logo/logo-black.webp" alt="Elements Agency Logo" class="logo">
+                    </a>
+                </div>
+                <button class="header__burger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                </button>                    
+                <nav class="header__menu">
+                    <div class="container">
+                        <ul class="header__list">
+                            <li>
+                                <a href="/portfolio/" class="header__link">Our Work</a>
+                            </li>
+                            <li>
+                                <a href="/about/" class="header__link">About</a>
+                            </li>
+                            <li>
+                                <a href="/contact/" class="header__link">Contact</a>
+                            </li>
+                            <li>
+                                <a href="/marketing/" class="header__sublink">Marketing</a>
+                            </li>
+                            <li>
+                                <a href="/design/" class="header__sublink">Design</a>
+                            </li>
+                            <li>
+                                <a href="/web-development/" class="header__sublink">Web Development</a>
+                            </li>
+                        </ul>       
+                        <div class="header__contacts">
+                            <p>Get in touch</p>
+                            <a href="tel:+447803772370" class="header__contacts__link">+44 7803 772370</a>
+                            <a href="mailto:hello.elementsagency@gmail.com" class="header__contacts__link">hello.elementsagency@gmail.com</a>
+                            <div class="button-wrapper">
+                                <a href="/contact/" class="button">Start your project
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                                    </svg>
+                                </a>
+                            </div>                  
+                        </div>
+                    </div>        
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <a href="/contact/" id="startProject" class="button start__project">Start your project
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                </svg>
+            </a>
+            <h4 class="col-lg-10" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="400">We help small businesses grow online</h4>
+            <h1 data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-dot icon" viewBox="0 0 16 16">
+                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                </svg>
+                Bespoke web design, marketing & development solutions</h1>
+        </div>
+    </section>
+    <section class="portfolio pb-5 pt-3">
+        <div class="container">
+            <div>
+                <div class="py-4 p-lg-4 col-12">
+                    <div class="portfolio__item" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="100">
+                        <a href="https://www.woodera.co.uk/" class="portfolio__item__link-wrapper" target="_blank">
+                            <div class="portfolio__item__title">
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-down-right portfolio__item__icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z"/>
+                                    </svg>
+                                    Woodera
+                                </p>
+                                <p>2025</p>
+                            </div>
+                            <div class="image-hover-wrapper">
+                                <img src="./img/portfolio/woodera.webp" alt="Woodera Website" class="hover-image">
+                                <div class="hover-overlay">
+                                    <div class="portfolio__item__links">
+                                        <span class="portfolio__item__link">E-commerce Website</span>
+                                        <span class="portfolio__item__link">Shopify Store</span>
+                                        <span class="portfolio__item__link">Logo Design</span>
+                                        <span class="portfolio__item__link">Website Design</span>
+                                        <span class="portfolio__item__link">SEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="py-4 p-lg-4 col-12 col-lg-6">
+                    <div class="portfolio__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="200">
+                        <a href="https://ykdetailing.co.uk/" class="portfolio__item__link-wrapper" target="_blank">
+                            <div class="portfolio__item__title">
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-down-right portfolio__item__icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z"/>
+                                    </svg>
+                                    YK Detailing
+                                </p>
+                                <p>2024</p>
+                            </div>
+                            <div class="image-hover-wrapper">
+                                <img src="./img/portfolio/yk.webp" alt="YK Detailing Website" class="hover-image" loading="lazy">
+                                <div class="hover-overlay">
+                                    <div class="portfolio__item__links">
+                                        <span class="portfolio__item__link">Business Website</span>
+                                        <span class="portfolio__item__link">Logo Design</span>
+                                        <span class="portfolio__item__link">Website Design</span>
+                                        <span class="portfolio__item__link">SEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                    
+                </div>
+                <div class="py-4 p-lg-4 col-12 col-lg-6">
+                    <div class="portfolio__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="300">
+                        <a href="https://elementsagency.github.io/elevate-agency/" class="portfolio__item__link-wrapper" target="_blank">
+                            <div class="portfolio__item__title">
+                                <p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-down-right portfolio__item__icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z"/>
+                                    </svg>
+                                    Elevate Agency
+                                </p>
+                                <p>2023</p>
+                            </div>
+                            <div class="image-hover-wrapper">
+                                <img src="./img/portfolio/elevate.webp" alt="Elevate Agency Website" class="hover-image" loading="lazy">
+                                <div class="hover-overlay">
+                                    <div class="portfolio__item__links">
+                                        <span class="portfolio__item__link">Business Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="button-wrapper">
+                <a href="/portfolio/" class="button" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="400">View all projects
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="services py-5">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600">
+                <h2>Our <br>
+                    <span>Services</span>
+                </h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-down-left icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 13.5a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1H3.707L13.854 2.854a.5.5 0 0 0-.708-.708L3 12.293V7.5a.5.5 0 0 0-1 0z"/>
+                </svg>
+            </div>
+            <div class="row service__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="100">
+                <div class="col-12 col-lg-6 order-2 order-lg-1 px-4">
+                    <h3 class="service__item__title">Marketing</h3>
+                    <div class="service__links">
+                        <span class="service__item__link">SEO</span>
+                        <span class="service__item__link">PPC</span>
+                        <span class="service__item__link">SMM</span>
+                        <span class="service__item__link">Email marketing</span>
+                    </div>
+                    <p class="service__item__text">We’ll help you get noticed on social media and Google, so more customers can find you.</p>
+                    <div class="button-wrapper">
+                        <a href="/marketing/" class="button">Find out more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <img src="./img/services/Marketing.webp" alt="Digital marketing service image" class="service__item__image" loading="lazy">                  
+                </div>
+            </div>
+            <div class="row service__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="200">
+                <div class="col-12 col-lg-6 order-2 order-lg-1 px-4">
+                    <h3 class="service__item__title">Design</h3>
+                    <div class="service__links">
+                        <span class="service__item__link">Website Design</span>
+                        <span class="service__item__link">Logo Design</span>
+                        <span class="service__item__link">Social Media Ad Design</span>
+                        <span class="service__item__link">Business Card Design</span>
+                    </div>
+                    <p class="service__item__text">We’ll design a modern website and high-quality social media content to help you attract more customers.</p>
+                    <div class="button-wrapper">
+                        <a href="/design/" class="button">Find out more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <img src="./img/services/Design.webp" alt="Design service image" class="service__item__image" loading="lazy">          
+                </div>
+            </div>
+            <div class="row service__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="300">
+                <div class="col-12 col-lg-6 order-2 order-lg-1 px-4">
+                    <h3 class="service__item__title">Web Development</h3>
+                    <div class="service__links">
+                        <span class="service__item__link">Business Websites</span>
+                        <span class="service__item__link">E-commerce Websites</span>
+                        <span class="service__item__link">Shopify Stores</span>
+                        <span class="service__item__link">Landing Pages</span>
+                        <span class="service__item__link">Portfolio Websites</span>
+                    </div>
+                    <p class="service__item__text">From online stores to business websites, we’ll build everything you need.</p>
+                    <div class="button-wrapper">
+                        <a href="/web-development/" class="button">Find out more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <img src="./img/services/Web Development.webp" alt="Web Development service image" class="service__item__image" loading="lazy">          
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work__process py-5">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600">
+                <h2>Work <br>
+                    <span>Process</span>
+                </h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-down-left icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 13.5a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1H3.707L13.854 2.854a.5.5 0 0 0-.708-.708L3 12.293V7.5a.5.5 0 0 0-1 0z"/>
+                </svg>
+            </div>
+            <div class="work__process__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600">
+                <div class="col-12 col-lg-8">
+                    <p class="number">01/</p>
+                    <h3>Discovery & Consultation</h3>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="work__process__text">We’ll learn about your goals, audience, and project</p>
+                </div>
+            </div>
+            <div class="work__process__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="100">
+                <div class="col-12 col-lg-8">
+                    <p class="number">02/</p>
+                    <h3>Design & Prototyping</h3>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="work__process__text">Creating a beautiful and easy-to-use design</p>
+                </div>
+            </div>
+            <div class="work__process__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="200">
+                <div class="col-12 col-lg-8">
+                    <p class="number">03/</p>
+                    <h3>Development & Implementation</h3>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="work__process__text">Turning the design into a working website with clean code</p>
+                </div>
+            </div>
+            <div class="work__process__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="300">
+                <div class="col-12 col-lg-8">
+                    <p class="number">04/</p>
+                    <h3>Testing & Optimization</h3>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="work__process__text">Making sure everything works perfectly, is secure, and provides a great user experience</p>
+                </div>
+            </div>
+            <div class="work__process__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-delay="400">
+                <div class="col-12 col-lg-8">
+                    <p class="number">05/</p>
+                    <h3>Launch & Support</h3>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="work__process__text">Launching your project and providing ongoing support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews bg-black py-5">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600">
+                <h2>Our <br>
+                    <span>Reviews</span>
+                </h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-down-left icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 13.5a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1H3.707L13.854 2.854a.5.5 0 0 0-.708-.708L3 12.293V7.5a.5.5 0 0 0-1 0z"/>
+                </svg>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-5 review" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="200">
+                    <div class="stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                    </div>
+                    <p class="review__text">Really happy with the website – it looks clean, works great, and my customers find it super easy to use. It’s made a big difference for my car detailing business. Highly recommend!</p>
+                    <p class="review__name">Yaroslav <br>
+                        <span>YK Detailing</span>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 mb-5 review" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="400">
+                    <div class="stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-star-fill star" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                    </div>
+                    <p class="review__text">
+                        Great job on the website – it’s exactly what I needed! Clean, professional, and perfectly done. Thanks a lot!</p>
+                    <p class="review__name">Alex <br>
+                        <span>Personal Trainer</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="bg-black py-5">
+        <div class="container">
+            <h3 data-aos="fade-up" data-aos-offset="300" data-aos-duration="600">FAQ's</h3>
+            <div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="col-12 col-lg-7">
+                        <div class="accordion-item" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="100">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                How much does web design and development cost?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Our web design and development services typically range from £1,000 to £10,000, depending on the scope of your project. Every project is unique, so we’ll work with you to determine a clear, fixed price based on your needs. We also offer flexible payment options, including milestone-based payments to keep things manageable.</div>
+                        </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="200">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                How long does a project usually take?
+                            </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Typically, a web design and development project takes between 4 to 8 weeks, depending on the complexity and features required. More extensive projects that involve branding, custom functionalities, or eCommerce may take a bit longer. We understand the importance of your timeline and work with you to set clear milestones and deliverables, ensuring quality without compromising on speed. If you have a specific deadline, just let us know—we’re happy to explore options that work for you.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="300">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                What do I need to provide for my new website?
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">You can share any content you’d like to feature—text, images, or videos. If you already have branding assets like a logo, colour palette, or brand guidelines, feel free to include those too. We’ll also take time to get to know your brand before starting the design to make sure everything fits your style and goals.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="400">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                How do I know if my website needs a redesign?
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">If your site hasn’t been updated in a while, feels outdated, or doesn’t work well on mobile, it might be time for a refresh. A good website should be easy to use, reflect your brand, and help visitors find what they need quickly. We create clean, modern designs that help businesses connect with their audience and stand out online.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-offset="300" data-aos-duration="600" data-aos-delay="500">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Do digital marketing services come with extra costs when added to web projects?
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes, adding digital marketing services to your web project can elevate your online presence. We offer transparent, upfront pricing for any extra services, so there are no surprises. Whether you opt for a full package or select individual services, we tailor our marketing strategies to align with your goals and budget. Get in touch for more details!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black py-5">
+        <div class="container">
+            <div class="d-flex flex-column justify-center flex-lg-row align-items-center">
+                <div class="col-12 col-lg-3">
+                    <a href="/">
+                        <img src="./img/logo/logo-white.webp" alt="Elements Agency logo" class="footer__logo">
+                    </a>
+                </div>
+                <div class="social__links col-12 col-lg-6 order-2 order-lg-2">
+                    <a href="https://www.linkedin.com/company/elements-digital-agency/" class="social__link">LinkedIn
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-up-right social__link__icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/elements.agency.co.uk/" class="social__link">Facebook
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-up-right social__link__icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/elementsagency_official/" class="social__link">Instagram
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-arrow-up-right social__link__icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-3 order-1 order-lg-3">
+                    <div class="button-wrapper">
+                        <a href="/contact/" class="button">Start your project
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
